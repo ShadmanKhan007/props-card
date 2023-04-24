@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(228, 167, 228);
+    max-width: 30%;
+    height: 66vh;
+    margin-left: 40%;
+} 
+
+.cards {
+    padding-top: 20px;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    right: 30px;
+    background-color: rgb(190, 117, 224);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.profile {
+  border-radius: 50px;
+}
+
+.heading-1 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.heading-2 {
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.para {
+    font-size:12px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.btn {
+    background-color: rgb(192, 189, 189);
+    color: black;
+    border-radius: 5px;
+}
